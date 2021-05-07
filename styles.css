@@ -1,8 +1,29 @@
+span {
+    font-weight: 600;
+}
+#box1 {
+    background-color: rgb(191, 215, 240);
+}
+#box2 {
+    background-color: rgb(146, 192, 238);  
+}
+#box3 {
+    background-color: rgb(125, 176, 243);
+}
+#box4 {
+    background-color: rgb(114, 181, 248);
+}
 .boxes {
-
+    margin: 20px;
+    padding: 1em;
+    width: 30em;
+    border: solid;
+    border-color: rgb(7, 6, 7);
+    border-radius: 5px;
+    display:block;
 }
 #container {
-
+    
 }
 body {
     background-color: rgb(214, 206, 206);
@@ -16,13 +37,67 @@ h2, p, .readme-wrapper {
     color: rgb(187, 97, 187);
 }
 a:visited {  
-    color: rgb(221, 37, 114);
+    color: rgba(221, 37, 114, 0.856);
 }
 a:hover {
     font-weight: bold;
     transition: .5s;
-    color: rgb(7, 6, 7);
+    color: rgba(7, 6, 7, 0.397);
 }
 a:active {
     color: olive;
+}
+.image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: wheat;
+    margin: 10px 10px -59px 120px;
+}
+.original {
+    color: teal;
+    font-weight: bold;
+}
+.additional {
+    color: skyblue;
+}
+#show1 {
+    text-decoration: blink black;
+    font-style: italic;
+}
+#show2 {
+    font-family: sans-serif;
+    color: darkblue;
+    text-decoration: underline;
+}
+#show3 {
+    color: darkcyan;
+    text-decoration: line-through dotted black;
+}
+#show4 {
+    color: darkred;
+    text-decoration: line-through underline black;
+    font-style: italic;
+}
+#show5 {
+    color: darkslategray;
+    text-decoration: underline overline black;
+} 
+ul {
+    color:rgb(3, 9, 102);
+}
+.star {
+    color: rgb(16, 75, 75);
+}
+#wars {
+    color: rgb(15, 121, 41);
+}
+.container2 {
+    border: solid black 2px;
+}
+.container3 {
+    border: solid black 2px;
+}
+.container4 {
+    border: solid black 2px;
 }
