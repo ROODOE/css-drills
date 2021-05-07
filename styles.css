@@ -1,0 +1,28 @@
+.boxes {
+
+}
+#container {
+
+}
+body {
+    background-color: rgb(214, 206, 206);
+    font-family: 'Lato', sans-serif;
+}
+h2, p, .readme-wrapper {
+    text-align: center;
+}
+.readme-wrapper, .boxes a {
+    text-decoration: none;
+    color: rgb(187, 97, 187);
+}
+a:visited {  
+    color: rgb(221, 37, 114);
+}
+a:hover {
+    font-weight: bold;
+    transition: .5s;
+    color: rgb(7, 6, 7);
+}
+a:active {
+    color: olive;
+}
